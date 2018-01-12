@@ -12,7 +12,8 @@
         android:text="Rozgłoś"
         android:layout_centerHorizontal="true"
         android:paddingHorizontal="50sp"
-        android:layout_below="@+id/textToBroadcast"/>
+        android:layout_below="@+id/textToBroadcast"
+        android:onClick="broadcastIntent"/>
 
     <EditText
         android:id="@+id/textToBroadcast"
@@ -23,5 +24,6 @@
         android:layout_marginTop="220sp"
         android:layout_marginBottom="30sp"
         android:inputType="text"
-        android:text="Lubię poniedziałki." />
+        android:text="Lubię poniedziałki."
+        />
 </RelativeLayout>

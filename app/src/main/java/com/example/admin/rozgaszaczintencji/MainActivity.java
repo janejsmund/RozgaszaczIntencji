@@ -20,10 +20,12 @@ public class MainActivity extends Activity {
 
         text = findViewById(R.id.textToBroadcast);
 
-        message = text.getText().toString();
+
     }
 
     public void broadcastIntent(View view) {
+
+        message = text.getText().toString();
 
         Intent intent = new Intent();
         intent.setAction("com.MY_INTENT");
